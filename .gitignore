@@ -1,0 +1,5 @@
+#VS ignores
+ipch/
+*.opendb
+*.MTS
+*.opensdf
