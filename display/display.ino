@@ -33,7 +33,7 @@ void setup() {
     display.clearDisplay();
     display.display();
     
-    display.setContrast(50); // установка контраста
+    display.setContrast(10); // установка контраста
     delay(1000);
     display.setTextSize(1);  // установка размера шрифта
     display.setTextColor(BLACK); // установка цвета текста

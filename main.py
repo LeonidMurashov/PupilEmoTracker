@@ -1,4 +1,4 @@
-import numpy as np
+# import numpy as np
 import cv2
 import threading as T
 import matplotlib.pyplot as plt
@@ -6,8 +6,8 @@ import matplotlib.animation as animation
 from matplotlib import style
 import time
 
-import serial
-ser = serial.Serial('COM5', 9600, timeout=2)
+# import serial
+# ser = serial.Serial('COM5', 9600, timeout=2)
 
 recommend = 200
 results = [0 for i in range(50)]
